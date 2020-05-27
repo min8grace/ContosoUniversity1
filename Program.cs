@@ -33,6 +33,7 @@ namespace ContosoUniversity1
                     var context = services.GetRequiredService<SchoolContext>();
 
                     //context.Database.EnsureCreated();
+
                     //The EnsureCreated method takes no action if a database for the context exists.
                     //If no database exists, it creates the database and schema.EnsureCreated enables the following workflow for handling data model changes:
                     //1.Delete the database.Any existing data is lost.
